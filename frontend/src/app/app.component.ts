@@ -3,8 +3,7 @@ import {QuestionComponent} from './question/question.component';
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  template:'<app-question></app-question>',
 })
 export class AppComponent {
   title = ' my app';
